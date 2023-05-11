@@ -35,6 +35,7 @@ use App\Controllers\Pages;
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 $routes->get('(:segment)', [Pages::class, 'login']);
+$routes->get('(:segment)', [Pages::class, 'nosotros']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

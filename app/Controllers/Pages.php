@@ -34,4 +34,17 @@ class Pages extends BaseController
             . view('pages/' . $login)
             . view('templates/footer');
     }
+    public function nosotros($nosotros = 'nosotros')
+    {
+        if (! is_file(APPPATH . 'Views/pages/' . $nosotros . '.php')) {
+            // Whoops, we don't have a page for that!
+            throw new PageNotFoundException($nosotros);
+        }
+
+        $data['title'] = ucfirst($nosotros); // Capitalize the first letter
+
+        return view('templates/header', $data)
+            . view('pages/' . $nosotros)
+            . view('templates/footer');
+    }
 }

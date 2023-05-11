@@ -1,9 +1,8 @@
-<form>
-  <label for="username">Nombre de usuario:</label>
-  <input type="text" id="username" name="username" required>
-  
-  <label for="password">Contraseña:</label>
-  <input type="password" id="password" name="password" required>
-  
-  <input type="submit" value="Iniciar sesión">
-</form>
+<div class="form-body">
+        <p class="text">Iniciar Sesión</p>
+        <form class="login-form">
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+            <button class="btn">Ingresar</button>
+        </form>
+    </div>

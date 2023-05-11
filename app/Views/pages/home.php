@@ -1,13 +1,41 @@
-<section>
-      <h1>Bienvenido a nuestra página de destino</h1>
-      <p>En esta página encontrarás información sobre nuestros productos y servicios.</p>
-      <a href="#" class="boton">Ver más</a>
+<header class="content header">
+        <h2 class="title">Inicio</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Ipsam necessitatibus odio quisquam reprehenderit quas, 
+             obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
+            libero vero quia asperiores similique dicta.
+        </p>
+    </header>
+    <section class="content about">
+        <h2 class="title">Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Ut soluta similique 
+            quia reprehenderit eligendi aliquam. Sit 
+            odio impedit quibusdam. Velit corporis, 
+            optio debitis quidem ex ipsam rerum dolorem autem sequi.
+        </p>
+        <a href="#" class="btn">Saber mas</a>
     </section>
-    <section>
-      <h2>Nuestros servicios</h2>
-      <ul>
-        <li>Servicio 1</li>
-        <li>Servicio 2</li>
-        <li>Servicio 3</li>
-      </ul>
+    <section class="content sau">
+        <h2 class="title">Productos</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+            elit. Veritatis excepturi dolore, harum asperiores 
+            cupiditate officiis quia odit reiciendis quidem iure 
+            architecto laudantium 
+            nihil saepe pariatur vel labore molestias consectetur veniam?</p>
+        <div class="box-container">
+            <div class="box">
+                <h3>Lorem</h3>
+                <p>labore molestias consectetur veniam</p>
+            </div>
+            <div class="box">
+                <h3>Lorem</h3>
+                <p>labore molestias consectetur veniam</p>
+            </div>
+            <div class="box">
+                <h3>Lorem</h3>
+                <p>labore molestias consectetur veniam</p>
+            </div>
+        </div>
     </section>
